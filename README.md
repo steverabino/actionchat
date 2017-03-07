@@ -1,24 +1,5 @@
-# README
+# Action Cable Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple example of Action Cable implementation in Rails 5
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created by following: https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable
