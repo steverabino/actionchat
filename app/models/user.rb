@@ -6,5 +6,7 @@ class User < ApplicationRecord
   has_many :messages
   has_many :chatrooms, through: :messages
 
-  validates :username, presence: true
+  before_save { |user| user.username.downcase! }
+  validates_presence_of :username
+  validates_uniqueness_of :username, case_sensitive: false
 end
